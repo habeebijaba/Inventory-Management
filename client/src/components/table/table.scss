@@ -1,0 +1,84 @@
+.exportButtons {
+  display: flex;
+  margin-bottom: 10px;
+  gap: 10px;
+  button {
+    // padding: 5px;
+    padding: 8px 18px;
+    width: 80px;
+    background-color: red;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+  }
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  border-radius: 5px;
+}
+th {
+  border-bottom: 1px solid rgb(221, 220, 220);
+  text-align: start;
+  padding: 15px;
+  color: rgb(68, 68, 68);
+  font-size: 15px;
+  font-weight: 500;
+}
+td {
+  border-bottom: 1px solid rgb(221, 220, 220);
+  text-align: start;
+  padding: 15px;
+  color: rgb(77, 77, 77);
+  font-weight: 500;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+// tr:nth-child(even){
+//     background-color: rgb(240, 239, 239);
+// }
+tr:hover {
+  background-color: #f7f4f3;
+}
+
+/* table.scss */
+.editButton {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border-radius: 5px;
+}
+
+.editButton:hover {
+  background-color: #2980b9;
+}
+
+.deleteButton {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border-radius: 5px;
+}
+
+.deleteButton:hover {
+  background-color: #c0392b;
+}
+.img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.single {
+  cursor: pointer;
+}
